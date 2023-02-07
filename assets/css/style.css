@@ -130,6 +130,10 @@ h6 {
   margin-left: 300px;
 }
 
+#main-2 {
+  margin-left: 0;
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -302,6 +306,40 @@ section {
 
 .section-bg {
   background: #f5f8fd;
+}
+
+.language-js {
+  background-color:#040b14;
+  color:rgba(20, 157, 221, 0.75)
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapse {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 35px;
+}
+
+.language-shell{
+  background-color:#040b14;
+  color:rgba(20, 157, 221, 0.75)
 }
 
 .section-title {
@@ -577,8 +615,8 @@ section {
 }
 
 .text {
-  color: black;
-  font-size: 32px;
+  color:darkblue;
+  font-size: 64px;
   padding: 16px 32px;
 }
 
@@ -968,6 +1006,13 @@ section {
   text-align: left;
   padding: 15px;
   font-weight: 600;
+}
+
+.center-i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
 }
 
 .contact .php-email-form .error-message br+br {
